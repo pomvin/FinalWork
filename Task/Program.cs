@@ -13,7 +13,6 @@ string[] arr1 = new string[12] {
 
 string[][] matrix = new string[][] {arr1};
 
-
 for (int i = 0; i < matrix.Length; i++)
 {
     Console.Write("[");
@@ -27,7 +26,6 @@ for (int i = 0; i < matrix.Length; i++)
     PrintArray(ResultsArray(DefinedArrayLength(matrix[i]), lengthArray));
     Console.WriteLine("]");
 }
-
 
 string[] DefinedArrayLength(string[] arr)
 {
@@ -54,7 +52,6 @@ int ArrayLength(string[] arr)
     return count;
 }
 
-
 string[] ResultsArray(string[] arr, int length)
 {
     string[] res = new string[length];
@@ -64,7 +61,6 @@ string[] ResultsArray(string[] arr, int length)
     }
     return res;
 }
-
 
 void PrintArray(string[] arr)
 {
